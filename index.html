@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="about">
+        <div class="navbar">
+            <h2 class="port">ADELEKE OLUWATOSIN PORTFOLIO</h2>
+            <button class="btn"><a href="#about">ABOUT ME</a></button>
+            <button class="btn-one"><a href="#experience">EXPERIENCE</a></button>
+            <button class="btn-two"><a href="#contact">CONTACT</a></button>
+        </div>
+        <div class="container">
+            <div class="access">
+                <img src="picture access.jpg" class="self">
+            </div>
+
+            <div class="summary">
+                <h2>CAREER SUMMARY</h2>
+                <h3>Dynamic and detail-oriented full-stack software developer with a passion for
+                    creating engaging and user-friendly web experiences. Proficient in HTML, CSS, javascript
+                    and NodeJs, with a solid understanding of modern full-stack frameworks such as React. Skilled
+                    in translating design mockups into responsive and interactive web interfaces, ensuring optimal
+                    performance
+                    and cross-browser compatability. Strong problem-solving abilities and a collaborative mindset, adept
+                    at working closely with cross-functional teams to deliver high-quality solutions. Eager to
+                    contribute to
+                    innovative projects, leverage energing technologies, and continuously expand my skill set in pursuit
+                    of
+                    delivering exceptional user experiences.
+                </h3>
+            </div>
+        </div>
+        <ul class="frnds">
+            <li><img src="picture access.jpg" class="images" onclick="transform('picture access.jpg')"></li>
+            <li><img src="Pictures with friends.jpg" class="images" onclick="transform('Pictures with friends.jpg')">
+            </li>
+            <li><img src="pictures with 2 friends.jpg" class="images"
+                    onclick="transform('pictures with 2 friends.jpg')"></li>
+            <li><img src="picture with 3 friends.jpg" class="images" onclick="transform('picture with 3 friends.jpg')">
+            </li>
+            <li><img src="picture with two friends.jpg" class="images"
+                    onclick="transform('picture with two friends.jpg')"></li>
+            <li><img src="pictures with 3 friends.jpg" class="images"
+                    onclick="transform('pictures with 3 friends.jpg')"></li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h4>PREVIOUS WORK DONE</h4>
+        <div class="card">
+            <div class="work">
+                <div>
+                    <img src="legacy 3.png" class="legacy">
+                </div>
+                <p>Looking for beautiful, affordable, and secure housing solutions? 
+                     You've come to the right place! At Legacy Homes,
+                     we take pride in providing top-notch hosting services 
+                     tailored to your unique needs.
+                </p>
+                <button class="more"><a href="https://adeleketosin.github.io/Legacy-Home/">See More</a></button>
+            </div>
+            <div class="work">
+                <div>
+                    <img src="my portfolio.png" class="legacy">
+                </div>
+                <p>My portfolio is a testament to the power of human imagination. Whether you seek to create immersive
+                     user experiences, captivate audiences with stunning visuals,
+                     or solve complex problems with elegant solutions, you'll find inspiration here.
+               </p>
+                <button class="more"><a href="https://adeleketosin.github.io/Personal-Portfolio/">See More</a></button>
+            </div>
+            <div class="work">
+                <div>
+                    <img src="api.png" class="legacy">
+                </div>
+                <p>Need a daily dose of doggy cuteness? With a simple click, 
+                    you can discover a random dog image that's bound to brighten your day. 
+                    Share these adorable moments with your friends and family because 
+                    who can resist a smiling pup?
+               </p>
+                <button class="more"><a href="https://adeleketosin.github.io/API-DOM/">See More</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="footer">
+            <div class="info">
+                <h2>My Contact</h2>
+                <h3>Adeleke Oluwatosin Rhoda</br>
+                    08108012195</br>
+                    adeleket18@gmail.com</br>
+                    Lagos, Nigeia.</h4>
+            </div>
+            <div class="social">
+                <h2>Social Information</h2>
+                <div class="page">
+                    <a href="https://github.com/adeleketosin"><img src="github logo.png">Github</a>
+                </div>
+                <div class="page">
+                    <a href="https://www.linkedin.com/in/oluwatosin-adeleke-2aab9b1b2/"><img
+                            src="linkedin icon.png">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function transform(anything) {
+            document.querySelector('.self').src = anything;
+        }
+    </script>
+</body>
+
+</html>
